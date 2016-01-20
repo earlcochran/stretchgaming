@@ -11,7 +11,8 @@
   "devDependencies": {
     "bootstrap": "^3.3.6",
     "browserify": "^13.0.0",
-    "jquery": "^2.2.0"
+    "jquery": "^2.2.0",
+    "react": "^0.14.6"
   },
   "browserify-shim": {
     "jquery": "$"
