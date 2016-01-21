@@ -5,7 +5,7 @@ class Index extends React.Component {
         return (
             <div>
                 <h1 className="cover-heading">Welcome to StretchGaming</h1>
-                <p className="lead">Thanks for stopping by! This is a work in progress.</p>
+                <p className="lead">Thanks for stopping by! This site is a work in progress.</p>
             </div>
         );
     }
