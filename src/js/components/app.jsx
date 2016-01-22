@@ -1,7 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router'
 
+import $ from 'jquery'
+
 class App extends React.Component {
+
+    handleIndexClick(e) {
+        $("nav li.active").removeClass("active");
+    }
 
     render() {
         return (
@@ -10,7 +16,7 @@ class App extends React.Component {
                     <div className="cover-container">
                         <div className="masthead clearfix">
                             <div className="inner">
-                                <h3 className="masthead-brand"><Link to="/">StretchGaming</Link></h3>
+                                <h3 className="masthead-brand"><Link to="/" onClick={this.handleIndexClick}>StretchGaming</Link></h3>
                                 <nav>
                                     <ul className="nav masthead-nav">
                                         <li><Link to="/servers">Servers</Link></li>
