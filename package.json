@@ -16,6 +16,7 @@
     "browserify": "^13.0.0",
     "gulp": "^3.9.0",
     "gulp-uglify": "^1.5.1",
+    "history": "^2.0.0-rc2",
     "jquery": "^2.2.0",
     "react": "^0.14.6",
     "react-async-script": "^0.5.1",

@@ -4,6 +4,9 @@ import React from 'react'
 import { render } from 'react-dom'
 
 import { Router, Route, Link, IndexRoute } from 'react-router'
+
+import createBrowserHistory from 'history/lib/createBrowserHistory'
+
 //var React = require('react');
 //var ReactRouter = require('react-router');
 //var Router = ReactRouter.Router;
@@ -21,7 +24,7 @@ import Donate from './components/donate.jsx'
 //var Donate = require('./components/donate.jsx');
 
 render((
-    <Router>
+    <Router history={createBrowserHistory()}>
         <Route path="/" component={App}>
             <IndexRoute component={Index} />
             <Route path="servers" component={Servers} />
