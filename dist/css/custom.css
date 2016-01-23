@@ -1,0 +1,12 @@
+img#qrcode {
+	width: 50%;
+	padding: 2%;
+	margin: 5%;
+	background: white;
+}
+
+img#steamtrade {
+	background: #202020;
+	padding: 2%;
+	margin-bottom: 5%;
+}
