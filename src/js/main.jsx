@@ -13,7 +13,7 @@ import { Router, Route, Link, IndexRoute } from 'react-router'
 import App from './components/app.jsx'
 import Index from './components/index.jsx'
 import Servers from './components/servers.jsx'
-import Donate from './components/Donate.jsx'
+import Donate from './components/donate.jsx'
 
 //var App = require('./components/app.jsx');
 //var Index = require('./components/index.jsx');
