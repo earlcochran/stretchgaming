@@ -6,7 +6,7 @@ class Servers extends React.Component {
 
     componentDidMount() {
         $("nav li.active").removeClass("active");
-        $("a[href='#/servers']").parent().addClass("active");
+        $("a[href='/servers']").parent().addClass("active");
     }
 
     render() {

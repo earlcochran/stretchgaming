@@ -11,7 +11,7 @@ class Donate extends React.Component {
 
     componentDidMount() {
         $("nav li.active").removeClass("active");
-        $("a[href='#/donate']").parent().addClass("active");
+        $("a[href='/donate']").parent().addClass("active");
 
         // Creating PayPal button
 

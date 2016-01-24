@@ -23982,7 +23982,7 @@ var Donate = function (_React$Component) {
         key: 'componentDidMount',
         value: function componentDidMount() {
             (0, _jquery2.default)("nav li.active").removeClass("active");
-            (0, _jquery2.default)("a[href='#/donate']").parent().addClass("active");
+            (0, _jquery2.default)("a[href='/donate']").parent().addClass("active");
 
             // Creating PayPal button
 
@@ -24190,7 +24190,7 @@ var Servers = function (_React$Component) {
         key: 'componentDidMount',
         value: function componentDidMount() {
             (0, _jquery2.default)("nav li.active").removeClass("active");
-            (0, _jquery2.default)("a[href='#/servers']").parent().addClass("active");
+            (0, _jquery2.default)("a[href='/servers']").parent().addClass("active");
         }
     }, {
         key: 'render',
